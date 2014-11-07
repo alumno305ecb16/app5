@@ -21,3 +21,6 @@ $(document).ready(function(e) {
 	},false);
 			
 });
+function escribehistoria(accion){
+	$('eHistoria').append('<li>'+accion+'</li>');
+}
